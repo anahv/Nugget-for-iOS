@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Nugget" representedClassName=".Nugget" syncable="YES" codeGenerationType="class">
+        <attribute name="alert" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="colour" optional="YES" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="frequency" optional="YES" attributeType="String" defaultValueString="Some time in 3 to 9 months"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="Nugget" positionX="-539.57421875" positionY="-1323.95703125" width="215.35546875" height="148"/>
+    </elements>
+</model>

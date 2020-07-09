@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE0246924927D9600D7D422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0246824927D9600D7D422 /* AppDelegate.swift */; };
+		3BE0246B24927D9600D7D422 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0246A24927D9600D7D422 /* SceneDelegate.swift */; };
+		3BE0246D24927D9600D7D422 /* NuggetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0246C24927D9600D7D422 /* NuggetViewController.swift */; };
+		3BE0247024927D9600D7D422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0246E24927D9600D7D422 /* Main.storyboard */; };
+		3BE0247324927D9600D7D422 /* Nugget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0247124927D9600D7D422 /* Nugget.xcdatamodeld */; };
+		3BE0247524927D9A00D7D422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0247424927D9A00D7D422 /* Assets.xcassets */; };
+		3BE024802492BECD00D7D422 /* NewNuggetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0247F2492BECD00D7D422 /* NewNuggetViewController.swift */; };
+		3BE02487249511D800D7D422 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE02486249511D800D7D422 /* Notifications.swift */; };
+		3BE0248B2495294E00D7D422 /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0248A2495294E00D7D422 /* DateToString.swift */; };
+		3BE0248F2495354D00D7D422 /* ReminderSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE0248E2495354D00D7D422 /* ReminderSettingsViewController.swift */; };
+		3BE024952496689500D7D422 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE024942496689500D7D422 /* Launch Screen.storyboard */; };
+		3BE0249824968CE400D7D422 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0249724968CE400D7D422 /* Pacifico-Regular.ttf */; };
+		3BE0249A24978BF200D7D422 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0249924978BF200D7D422 /* Heebo-Regular.ttf */; };
+		3BFFDBE7249CF36A001A5A83 /* SaveNugget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFFDBE6249CF36A001A5A83 /* SaveNugget.swift */; };
+		8041BECBE8E0EAFF11D05AF2 /* Pods_Nugget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45971BA0E4B754E75EFAD6E /* Pods_Nugget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D48F3530C50CC17BBDB4769 /* Pods-Nugget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nugget.debug.xcconfig"; path = "Target Support Files/Pods-Nugget/Pods-Nugget.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC114FC24A2231A00EDD6F2 /* Nugget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nugget.entitlements; sourceTree = "<group>"; };
+		3BE0246524927D9600D7D422 /* Nugget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nugget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE0246824927D9600D7D422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BE0246A24927D9600D7D422 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BE0246C24927D9600D7D422 /* NuggetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuggetViewController.swift; sourceTree = "<group>"; };
+		3BE0246F24927D9600D7D422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BE0247224927D9600D7D422 /* Nugget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nugget.xcdatamodel; sourceTree = "<group>"; };
+		3BE0247424927D9A00D7D422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE0247924927D9A00D7D422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE0247F2492BECD00D7D422 /* NewNuggetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNuggetViewController.swift; sourceTree = "<group>"; };
+		3BE02486249511D800D7D422 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		3BE0248A2495294E00D7D422 /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
+		3BE0248E2495354D00D7D422 /* ReminderSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsViewController.swift; sourceTree = "<group>"; };
+		3BE024942496689500D7D422 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3BE0249724968CE400D7D422 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3BE0249924978BF200D7D422 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		3BFFDBE6249CF36A001A5A83 /* SaveNugget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveNugget.swift; sourceTree = "<group>"; };
+		C45971BA0E4B754E75EFAD6E /* Pods_Nugget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nugget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE28B28F40D6AC5E0608420 /* Pods-Nugget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nugget.release.xcconfig"; path = "Target Support Files/Pods-Nugget/Pods-Nugget.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE0246224927D9600D7D422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8041BECBE8E0EAFF11D05AF2 /* Pods_Nugget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE0245C24927D9600D7D422 = {
+			isa = PBXGroup;
+			children = (
+				3BE0246724927D9600D7D422 /* Nugget */,
+				3BE0246624927D9600D7D422 /* Products */,
+				FB9C10CDC1565401A6ED087C /* Pods */,
+				ECE41872237156C75D16FB06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE0246624927D9600D7D422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0246524927D9600D7D422 /* Nugget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE0246724927D9600D7D422 /* Nugget */ = {
+			isa = PBXGroup;
+			children = (
+				3BC114FC24A2231A00EDD6F2 /* Nugget.entitlements */,
+				3BE0247924927D9A00D7D422 /* Info.plist */,
+				3BE0249624968CC600D7D422 /* Fonts */,
+				3BE024822492C52B00D7D422 /* Supporting files */,
+				3BE024812492C52200D7D422 /* Controllers */,
+				3BE024832492C54400D7D422 /* Views */,
+				3BE0249B24978C1900D7D422 /* Data Models */,
+			);
+			path = Nugget;
+			sourceTree = "<group>";
+		};
+		3BE024812492C52200D7D422 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0246C24927D9600D7D422 /* NuggetViewController.swift */,
+				3BE0247F2492BECD00D7D422 /* NewNuggetViewController.swift */,
+				3BE0248E2495354D00D7D422 /* ReminderSettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BE024822492C52B00D7D422 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0248A2495294E00D7D422 /* DateToString.swift */,
+				3BFFDBE6249CF36A001A5A83 /* SaveNugget.swift */,
+				3BE02486249511D800D7D422 /* Notifications.swift */,
+				3BE0246824927D9600D7D422 /* AppDelegate.swift */,
+				3BE0247424927D9A00D7D422 /* Assets.xcassets */,
+				3BE0246A24927D9600D7D422 /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3BE024832492C54400D7D422 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0246E24927D9600D7D422 /* Main.storyboard */,
+				3BE024942496689500D7D422 /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BE0249624968CC600D7D422 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0249724968CE400D7D422 /* Pacifico-Regular.ttf */,
+				3BE0249924978BF200D7D422 /* Heebo-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3BE0249B24978C1900D7D422 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BE0247124927D9600D7D422 /* Nugget.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		ECE41872237156C75D16FB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45971BA0E4B754E75EFAD6E /* Pods_Nugget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9C10CDC1565401A6ED087C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D48F3530C50CC17BBDB4769 /* Pods-Nugget.debug.xcconfig */,
+				CDE28B28F40D6AC5E0608420 /* Pods-Nugget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE0246424927D9600D7D422 /* Nugget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE0247C24927D9A00D7D422 /* Build configuration list for PBXNativeTarget "Nugget" */;
+			buildPhases = (
+				63BCB00FF2BBA37290C90871 /* [CP] Check Pods Manifest.lock */,
+				3BE0246124927D9600D7D422 /* Sources */,
+				3BE0246224927D9600D7D422 /* Frameworks */,
+				3BE0246324927D9600D7D422 /* Resources */,
+				748209DE77A705BE66827AB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nugget;
+			productName = Nugget;
+			productReference = 3BE0246524927D9600D7D422 /* Nugget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE0245D24927D9600D7D422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ana;
+				TargetAttributes = {
+					3BE0246424927D9600D7D422 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 3BE0246024927D9600D7D422 /* Build configuration list for PBXProject "Nugget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE0245C24927D9600D7D422;
+			productRefGroup = 3BE0246624927D9600D7D422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE0246424927D9600D7D422 /* Nugget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE0246324927D9600D7D422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE0249A24978BF200D7D422 /* Heebo-Regular.ttf in Resources */,
+				3BE024952496689500D7D422 /* Launch Screen.storyboard in Resources */,
+				3BE0249824968CE400D7D422 /* Pacifico-Regular.ttf in Resources */,
+				3BE0247524927D9A00D7D422 /* Assets.xcassets in Resources */,
+				3BE0247024927D9600D7D422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63BCB00FF2BBA37290C90871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nugget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		748209DE77A705BE66827AB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nugget/Pods-Nugget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nugget/Pods-Nugget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nugget/Pods-Nugget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE0246124927D9600D7D422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE0248F2495354D00D7D422 /* ReminderSettingsViewController.swift in Sources */,
+				3BE0248B2495294E00D7D422 /* DateToString.swift in Sources */,
+				3BE02487249511D800D7D422 /* Notifications.swift in Sources */,
+				3BE0246D24927D9600D7D422 /* NuggetViewController.swift in Sources */,
+				3BE0247324927D9600D7D422 /* Nugget.xcdatamodeld in Sources */,
+				3BE024802492BECD00D7D422 /* NewNuggetViewController.swift in Sources */,
+				3BFFDBE7249CF36A001A5A83 /* SaveNugget.swift in Sources */,
+				3BE0246924927D9600D7D422 /* AppDelegate.swift in Sources */,
+				3BE0246B24927D9600D7D422 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BE0246E24927D9600D7D422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE0246F24927D9600D7D422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BE0247A24927D9A00D7D422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BE0247B24927D9A00D7D422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BE0247D24927D9A00D7D422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D48F3530C50CC17BBDB4769 /* Pods-Nugget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nugget/Nugget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZHU93487H;
+				INFOPLIST_FILE = Nugget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ana.Nugget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BE0247E24927D9A00D7D422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE28B28F40D6AC5E0608420 /* Pods-Nugget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nugget/Nugget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZHU93487H;
+				INFOPLIST_FILE = Nugget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ana.Nugget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE0246024927D9600D7D422 /* Build configuration list for PBXProject "Nugget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE0247A24927D9A00D7D422 /* Debug */,
+				3BE0247B24927D9A00D7D422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE0247C24927D9A00D7D422 /* Build configuration list for PBXNativeTarget "Nugget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE0247D24927D9A00D7D422 /* Debug */,
+				3BE0247E24927D9A00D7D422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BE0247124927D9600D7D422 /* Nugget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BE0247224927D9600D7D422 /* Nugget.xcdatamodel */,
+			);
+			currentVersion = 3BE0247224927D9600D7D422 /* Nugget.xcdatamodel */;
+			path = Nugget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BE0245D24927D9600D7D422 /* Project object */;
+}
