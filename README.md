@@ -5,6 +5,8 @@ You can create a new nugget, add text and an optional image.
 
 ![Screenshot of nugget creation page](/Nugget/Images/screenshot1.png | width=100)
 
+<img src="static/img/lion.jpeg" width="200">
+
 The reminder is set to some time in 3 to 9 months by default, so you don't have to do any extra configuration. If you like, you can change the frequency to anything between 1 month to a year.
 
 At that point, you will receive a local notification with a preview of your nugget, including an image thumbnail (if there is one). 
