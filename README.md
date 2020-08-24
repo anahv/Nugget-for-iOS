@@ -19,7 +19,7 @@ If you tap on the notification, the app will open at that particular nugget page
 
 The app includes all the usual CRUD capabilities, using Apple CoreData. It also has a searchbar so you can search for your nugget. 
 
-With Nugget, never forget a nugget of wisdom again!
+With Nugget, never forget a nugget of wisdom again! Full demo in [https://www.youtube.com/watch?v=0S3Ffua4y7A](Youtube)
 
 <img src="/Nugget/Images/screenshot5.png" width="200" alt="Nugget logo">
 
